@@ -72,7 +72,7 @@ export const Footer = () => {
           />
         </div>
       </div>
-      <div className="flexBetween footer_copyright">
+      <div className="flexBetween footer_copyright mt-16">
         <p>&copy;2023 All rights reserved</p>
         <p className="text-gray">
           <span className="text-black">10,214</span> Projects Submitted
