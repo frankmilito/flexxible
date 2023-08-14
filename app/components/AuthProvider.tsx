@@ -8,7 +8,7 @@ type Provider = {
   type: string;
   signinURL: string;
   callbackURL: string;
-  signinURLParams: Record<string, string> | undefined;
+  signinURLParams?: Record<string, string> | undefined;
 };
 
 type Providers = Record<string, Provider>;

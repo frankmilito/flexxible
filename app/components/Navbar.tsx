@@ -8,7 +8,8 @@ import { getCurrentUser } from "../lib/session";
 
 const Navbar = async () => {
   const session = await getCurrentUser();
-
+  const arr = [1, 2, 3, 4];
+  console.log(arr.map((item) => item));
   return (
     <nav className="flexBetween  navbar">
       <div className="  flex-1 flexStart gap-10">
